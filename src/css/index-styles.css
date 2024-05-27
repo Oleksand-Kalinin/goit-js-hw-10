@@ -1,0 +1,29 @@
+@import url('./reset.css');
+
+.list-tasks {
+    border: 1px solid #4e75ff;
+    border-radius: 16px;
+    margin: 40px auto;
+    padding: 16px;
+    max-width: 120px;
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-tasks li {
+    width: 100%;
+}
+
+.list-tasks a {
+    display: block;
+    text-align: center;
+}
+
+.list-tasks li:hover,
+.list-tasks li:focus {
+    transform: scale(1.04);
+}
