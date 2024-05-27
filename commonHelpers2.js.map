@@ -1,1 +1,1 @@
-{"version":3,"file":"commonHelpers2.js","sources":[],"sourcesContent":[],"names":[],"mappings":""}
+{"version":3,"file":"commonHelpers2.js","sources":["../src/js/2-snackbar.js"],"sourcesContent":["const btnGoBackEl = document.querySelector('.btn-go-back');\nbtnGoBackEl.addEventListener('click', () => window.location.href = './index.html');"],"names":["btnGoBackEl"],"mappings":"oDAAA,MAAMA,EAAc,SAAS,cAAc,cAAc,EACzDA,EAAY,iBAAiB,QAAS,IAAM,OAAO,SAAS,KAAO,cAAc"}
