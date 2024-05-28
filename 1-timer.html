@@ -11,12 +11,39 @@
   <title>Timer</title>
   <script type="module" crossorigin src="/goit-js-hw-10/commonHelpers.js"></script>
   <link rel="modulepreload" crossorigin href="/goit-js-hw-10/assets/modulepreload-polyfill-3cfb730f.js">
-  <link rel="stylesheet" href="/goit-js-hw-10/assets/1-timer-5142166a.css">
+  <link rel="modulepreload" crossorigin href="/goit-js-hw-10/assets/vendor-77e16229.js">
+  <link rel="stylesheet" href="/goit-js-hw-10/assets/vendor-7a007824.css">
+  <link rel="stylesheet" href="/goit-js-hw-10/assets/1-timer-bfc5ef13.css">
 </head>
 
 <body>
 
   <button class="btn-go-back" type="button">Go back</button>
+
+  <div class="timer-wrapper">
+
+    <input type="text" id="datetime-picker" />
+    <button type="button" data-start disabled>Start</button>
+
+    <div class="timer">
+      <div class="field">
+        <span class="value" data-days>00</span>
+        <span class="label">Days</span>
+      </div>
+      <div class="field">
+        <span class="value" data-hours>00</span>
+        <span class="label">Hours</span>
+      </div>
+      <div class="field">
+        <span class="value" data-minutes>00</span>
+        <span class="label">Minutes</span>
+      </div>
+      <div class="field">
+        <span class="value" data-seconds>00</span>
+        <span class="label">Seconds</span>
+      </div>
+    </div>
+  </div>
 
   
 </body>
