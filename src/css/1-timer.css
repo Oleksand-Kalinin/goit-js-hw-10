@@ -21,3 +21,91 @@
 .btn-go-back:focus {
     background-color: #6c8cff;
 }
+
+.timer-wrapper {
+    max-width: 400px;
+    margin: 24px auto;
+    border: 1px solid #4e75ff;
+    border-radius: 16px;
+    padding: 16px;
+}
+
+.timer-wrapper input:disabled {
+    background-color: #fafafa;
+    opacity: 0.7;
+}
+
+.timer-wrapper input {
+    width: 272px;
+    padding: 8px 16px;
+    border: 1px solid #808080;
+    border-radius: 4px;
+    margin-right: 8px;
+
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+}
+
+.timer-wrapper button:disabled {
+    background-color: #cfcfcf;
+    color: #989898;
+}
+
+.timer-wrapper button:disabled:hover {
+    background-color: #cfcfcf;
+    color: #989898;
+    cursor: auto;
+}
+
+.timer-wrapper button {
+    border-radius: 8px;
+    border: none;
+    padding: 8px 16px;
+    min-width: 75px;
+
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+
+    background-color: #4e75ff;
+    transition: background-color 250ms linear;
+}
+
+.timer-wrapper button:hover,
+.timer-wrapper button:focus {
+    background-color: #6c8cff;
+}
+
+.timer {
+    justify-content: space-between;
+    margin-top: 32px;
+    display: flex;
+    column-gap: 24px;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.value {
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    line-height: 1.2;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+    text-align: center;
+}
+
+.label {
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.5;
+    color: #2e2f42;
+    text-transform: uppercase;
+    text-align: center;
+}
