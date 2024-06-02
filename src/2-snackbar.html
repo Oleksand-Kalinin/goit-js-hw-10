@@ -15,6 +15,29 @@
 
   <button class="btn-go-back" type="button">Go back</button>
 
+  <form class="form">
+    <label>
+      Delay (ms)
+      <input type="number" name="delay" value="1000" required />
+    </label>
+
+    <fieldset>
+      <legend>State</legend>
+      <div class="input-radio-wrapper">
+        <label>
+          <input type="radio" name="state" value="fulfilled" required />
+          Fulfilled
+        </label>
+        <label>
+          <input type="radio" name="state" value="rejected" required />
+          Rejected
+        </label>
+      </div>
+    </fieldset>
+
+    <button type="submit">Create notification</button>
+  </form>
+
   <script type="module" src="./js/2-snackbar.js"></script>
 </body>
 
