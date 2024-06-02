@@ -8,12 +8,10 @@ const formSnackbar = document.querySelector('.form')
 
 
 
-formSnackbar.addEventListener('input', (event) => {
-    const formData = new FormData(formSnackbar);
-    const delay = formData.get('delay');
+formSnackbar.addEventListener('input', () => {
     const inputDelayEl = document.querySelector('input[name="delay"]')
 
-    if (Number(delay) < 0) {
+    if (inputDelayEl.value < 0) {
         iziToast.error({
             message: `Please enter positive number`,
             position: 'topCenter',
